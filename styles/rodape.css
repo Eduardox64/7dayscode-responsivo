@@ -1,0 +1,70 @@
+.rodape__menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--cor-branco);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: 0px -4px 8px 0px rgba(0, 0, 0, 0.06);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0.64em 1em;
+}
+
+.rodape__lista a {
+    text-decoration: none;
+    color: var(--cor-preto);
+}
+
+.rodape__icone {
+    padding-bottom: 0.3em;
+}
+
+.rodape__botao-flutuante {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed; 
+    bottom: 3.5em; 
+    right: 0em;
+}
+
+.rodape__botao-nome {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.rodape__botao-nome--consultas {
+    color: var(--botao-endereco);
+}
+
+.rodape__icone--clarear {
+    filter: brightness(1.2);
+    opacity: 0.36;
+}
+
+.rodape__botao-nome--clarear {
+    opacity: 0.6;
+}
+
+@media (min-width: 768px) {
+
+    .rodape__menu {
+        justify-content: center;
+        gap: 2.5em;
+    }
+    
+}
+
+@media (min-width: 1440px) {
+    .rodape__menu {
+        display: none;
+      }
+
+    .rodape__botao-flutuante {
+        bottom: 0.5em;
+        right: 1em;
+    }
+}

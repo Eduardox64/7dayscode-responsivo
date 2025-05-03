@@ -1,0 +1,211 @@
+.consultas {
+  margin: 1.2em 1.2em 5em 1.2em;
+}
+
+.consultas__dia {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--cor-preto);
+  margin-top: 2em;
+}
+
+.consultas__agendada {
+  border: 1px solid var(--cor-branco);
+  background-color: var(--cor-branco);
+  border-radius: 8px;
+  margin: 1em 0;
+}
+
+.consultas__paciente {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.consultas__bloco {
+  display: flex;
+  gap: 1em;
+}
+
+.consultas__nome {
+  font-weight: 700;
+  color: var(--cor-preto);
+}
+
+.consultas__ambiente {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--cor-consulta);
+  margin-top: 0.5em;
+  display: flex;
+  align-items: center;
+}
+
+.consultas__icone {
+  padding-right: 0.5em;
+  width: 16px;
+  height: 16px;
+}
+
+.consultas__atendimento {
+  padding: 1em;
+}
+
+.consultas__horario {
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--cor-preto);
+  margin-bottom: 1em;
+}
+
+.consultas__botoes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.consultas__botao-video {
+  text-decoration: none;
+  border: 1px solid var(--botao-video);
+  border-radius: 8px;
+  background-color: var(--botao-video);
+  color: var(--cor-branco);
+  font-weight: 500;
+  padding: 13px 16px;
+}
+
+.consultas__botao-audio {
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: var(--cor-branco);
+  color: var(--cor-preto);
+  font-weight: 500;
+  padding: 13px 16px;
+}
+
+.consultas__botao-endereco {
+  border: 1px solid var(--botao-endereco);
+  border-radius: 8px;
+  background-color: var(--botao-endereco);
+  text-decoration: none;
+  color: var(--cor-branco);
+  padding: 13px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-lateral {
+  display: none;
+}
+
+a[class^="consultas__botao-"] {
+  transition: transform 150ms linear;
+}
+
+a[class^="consultas__botao-"]:hover {
+  transform: scale(1.06);
+}
+
+@media (min-width: 768px) {
+  .consultas__lista {
+    display: flex;
+    flex-flow: wrap;
+    gap: 1em 0;
+    justify-content: space-between;
+    margin-bottom: 4em;
+  }
+
+  .consultas__agendada {
+    min-width: 328px;
+  }
+
+  .consultas {
+    margin: 0 2.5em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .consultas__agendada {
+    min-width: 310px;
+  }
+
+  .consultas {
+    margin: 0 1.5em;
+  }
+
+  .consultas__botao-video,
+  .consultas__botao-audio {
+    padding: 13px 12px;
+  }
+
+  h1,
+  h2,
+  h3,
+  p,
+  span {
+    font-size: 125%;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    margin-left: 225px;
+  }
+
+  .consultas__lista {
+    justify-content: flex-start;
+    gap: 0 2em;
+  }
+
+  /* .rodape__menu {
+    display: none;
+  } */
+
+  .menu-lateral {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100vh;
+    background-color: #ffffff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu-lateral__lista {
+    list-style: none;
+    margin-top: 40px;
+    display: flex;
+    gap: 0.75em;
+    flex-direction: column;
+  }
+
+  .menu-lateral__item a {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .menu-lateral__item a img {
+    margin-right: 12px;
+    width: 22px;
+    height: 22px;
+  }
+
+  .menu-lateral__item--ativo a {
+    background-color: #e6f0ff;
+    color: #2a7ae4;
+    border-left: 4px solid #2a7ae4;
+  }
+
+  .menu-lateral__item--inativo a:hover {
+    background-color: #f5f5f5;
+    padding: 0.75em;
+  }
+}

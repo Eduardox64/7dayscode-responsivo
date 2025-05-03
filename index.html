@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agendamentos</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <img
+        class="cabecalho__imagem"
+        src="assets/sonia.svg"
+        alt="Foto da Sônia"
+      />
+      <div class="cabecalho__usuario">
+        <h1 class="cabecalho__usuario-nome">Olá, Sônia</h1>
+        <p class="cabecalho__usuario-consultas">Mais 4 consultas hoje</p>
+      </div>
+    </header>
+
+    <section class="consultas">
+
+      <nav class="menu-lateral">
+        <ul class="menu-lateral__lista">
+          <li class="menu-lateral__item menu-lateral__item--ativo">
+            <a href="#"><img src="assets/calendario.png" alt=""> Consultas</a>
+          </li>
+          <li class="menu-lateral__item menu-lateral__item--inativo">
+            <a href="#"><img src="assets/clientes.png" alt=""> Clientes</a>
+          </li>
+          <li class="menu-lateral__item menu-lateral__item--inativo">
+            <a href="#"><img src="assets/relatorios.png" alt=""> Relatórios</a>
+          </li>
+          <li class="menu-lateral__item menu-lateral__item--inativo">
+            <a href="#"><img src="assets/menu.png" alt=""> Menu</a>
+          </li>
+        </ul>
+      </nav>
+
+      <h2 class="consultas__dia">Hoje</h2>
+
+      <ul class="consultas__lista">
+        <li class="consultas__agendada">
+          <div class="consultas__paciente">
+            <div class="consultas__bloco">
+              <img src="assets/luciana.svg" alt="Foto da Luiciana Dias" />
+              <div class="consultas__modalidade">
+                <h2 class="consultas__nome">Luciana Dias</h2>
+                <span class="consultas__ambiente">
+                  <img
+                    class="consultas__icone"
+                    src="assets/camera.svg"
+                    alt="Ícone de câmera"
+                  />Consulta remota
+                </span>
+              </div>
+            </div>
+            <a class="consultas__botao-chat" href="#"
+              ><img
+                class="consultas__imagem-chat"
+                src="assets/chat.svg"
+                alt="Ícone de chat"
+            /></a>
+          </div>
+
+          <div class="consultas__atendimento">
+            <p class="consultas__horario">14:00 - 15:00 (1 hora)</p>
+            <div class="consultas__botoes">
+              <a class="consultas__botao-video" href="#">Ligar por vídeo</a>
+              <a class="consultas__botao-audio" href="#">Ligar por áudio</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="consultas__agendada">
+          <div class="consultas__paciente">
+            <div class="consultas__bloco">
+              <img src="assets/larissa.svg" alt="Foto da Larissa Santana" />
+              <div class="consultas__modalidade">
+                <h2 class="consultas__nome">Larissa Santana</h2>
+                <p class="consultas__ambiente">
+                  <img
+                    class="consultas__icone"
+                    src="assets/pin.svg"
+                    alt="Ícone de câmera"
+                  />Consulta no local
+                </p>
+              </div>
+            </div>
+            <a class="consultas__botao-chat" href="#"
+              ><img
+                class="consultas__imagem-chat"
+                src="assets/chat.svg"
+                alt="Ícone de chat"
+            /></a>
+          </div>
+
+          <div class="consultas__atendimento">
+            <p class="consultas__horario">16:00 - 17:00 (1 hora)</p>
+            <a class="consultas__botao-endereco" href="#">Ver endereço</a>
+          </div>
+        </li>
+
+        <li class="consultas__agendada">
+          <div class="consultas__paciente">
+            <div class="consultas__bloco">
+              <img src="assets/marcos.svg" alt="Foto da Marcos Correia" />
+              <div class="consultas__modalidade">
+                <h2 class="consultas__nome">Marcos Correia</h2>
+                <p class="consultas__ambiente">
+                  <img
+                    class="consultas__icone"
+                    src="assets/camera.svg"
+                    alt="Ícone de câmera"
+                  />Consulta remota
+                </p>
+              </div>
+            </div>
+            <a class="consultas__botao-chat" href="#"
+              ><img
+                class="consultas__imagem-chat"
+                src="assets/chat.svg"
+                alt="Ícone de chat"
+            /></a>
+          </div>
+
+          <div class="consultas__atendimento">
+            <p class="consultas__horario">17:20 - 18:00 (40 minutos)</p>
+            <div class="consultas__botoes">
+              <a class="consultas__botao-video" href="#">Ligar por vídeo</a>
+              <a class="consultas__botao-audio" href="#">Ligar por áudio</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <h2 class="consultas__dia">Amanhã</h2>
+
+      <ul class="consultas__lista">
+        <li class="consultas__agendada">
+          <div class="consultas__paciente">
+            <div class="consultas__bloco">
+              <img src="assets/clara.svg" alt="Foto da Clara Lemos" />
+              <div class="consultas__modalidade">
+                <h2 class="consultas__nome">Clara Lemos</h2>
+                <p class="consultas__ambiente">
+                  <img
+                    class="consultas__icone"
+                    src="assets/pin.svg"
+                    alt="Ícone de câmera"
+                  />Consulta no local
+                </p>
+              </div>
+            </div>
+            <a class="consultas__botao-chat" href="#"
+              ><img
+                class="consultas__imagem-chat"
+                src="assets/chat.svg"
+                alt="Ícone de chat"
+            /></a>
+          </div>
+          <div class="consultas__atendimento">
+            <p class="consultas__horario">18:00 - 19:00 (1 hora)</p>
+            <a class="consultas__botao-endereco" href="#">Ver endereço</a>
+          </div>
+        </li>
+
+        <li class="consultas__agendada">
+          <div class="consultas__paciente">
+            <div class="consultas__bloco">
+              <img src="assets/luciana.svg" alt="Foto da Luiciana Dias" />
+              <div class="consultas__modalidade">
+                <h2 class="consultas__nome">Luciana Dias</h2>
+                <p class="consultas__ambiente">
+                  <img
+                    class="consultas__icone"
+                    src="assets/camera.svg"
+                    alt="Ícone de câmera"
+                  />Consulta remota
+                </p>
+              </div>
+            </div>
+            <a class="consultas__botao-chat" href="#"
+              ><img
+                class="consultas__imagem-chat"
+                src="assets/chat.svg"
+                alt="Ícone de chat"
+            /></a>
+          </div>
+          <div class="consultas__atendimento">
+            <p class="consultas__horario">14:00 - 15:00 (1 hora)</p>
+            <div class="consultas__botoes">
+              <a class="consultas__botao-video" href="#">Ligar por vídeo</a>
+              <a class="consultas__botao-audio" href="#">Ligar por áudio</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="consultas__agendada">
+          <div class="consultas__paciente">
+            <div class="consultas__bloco">
+              <img src="assets/marcos.svg" alt="Foto da Marcos Correia" />
+              <div class="consultas__modalidade">
+                <h2 class="consultas__nome">Marcos Correia</h2>
+                <p class="consultas__ambiente">
+                  <img
+                    class="consultas__icone"
+                    src="assets/camera.svg"
+                    alt="Ícone de câmera"
+                  />Consulta remota
+                </p>
+              </div>
+            </div>
+            <a class="consultas__botao-chat" href="#"
+              ><img
+                class="consultas__imagem-chat"
+                src="assets/chat.svg"
+                alt="Ícone de chat"
+            /></a>
+          </div>
+          <div class="consultas__atendimento">
+            <p class="consultas__horario">17:20 - 18:00 (40 minutos)</p>
+            <div class="consultas__botoes">
+              <a class="consultas__botao-video" href="#">Ligar por vídeo</a>
+              <a class="consultas__botao-audio" href="#">Ligar por áudio</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="consultas__agendada">
+          <div class="consultas__paciente">
+            <div class="consultas__bloco">
+              <img src="assets/larissa.svg" alt="Foto da Larissa Santana" />
+              <div class="consultas__modalidade">
+                <h2 class="consultas__nome">Larissa Santana</h2>
+                <p class="consultas__ambiente">
+                  <img
+                    class="consultas__icone"
+                    src="assets/pin.svg"
+                    alt="Ícone de câmera"
+                  />Consulta no local
+                </p>
+              </div>
+            </div>
+            <a class="consultas__botao-chat" href="#"
+              ><img
+                class="consultas__imagem-chat"
+                src="assets/chat.svg"
+                alt="Ícone de chat"
+            /></a>
+          </div>
+          <div class="consultas__atendimento">
+            <p class="consultas__horario">16:00 - 17:00 (1 hora)</p>
+            <a class="consultas__botao-endereco" href="#">Ver endereço</a>
+          </div>
+        </li>
+      </ul>
+
+      <h2 class="consultas__dia">Quarta-feira</h2>
+
+      <ul class="consultas__lista">
+        <li class="consultas__agendada">
+          <div class="consultas__paciente">
+            <div class="consultas__bloco">
+              <img src="assets/clara.svg" alt="Foto da Clara Lemos" />
+              <div class="consultas__modalidade">
+                <h2 class="consultas__nome">Clara Lemos</h2>
+                <p class="consultas__ambiente">
+                  <img
+                    class="consultas__icone"
+                    src="assets/pin.svg"
+                    alt="Ícone de câmera"
+                  />Consulta no local
+                </p>
+              </div>
+            </div>
+            <a class="consultas__botao-chat" href="#"
+              ><img
+                class="consultas__imagem-chat"
+                src="assets/chat.svg"
+                alt="Ícone de chat"
+            /></a>
+          </div>
+          <div class="consultas__atendimento">
+            <p class="consultas__horario">18:00 - 19:00 (1 hora)</p>
+            <a class="consultas__botao-endereco" href="#">Ver endereço</a>
+          </div>
+        </li>
+
+        <li class="consultas__agendada">
+          <div class="consultas__paciente">
+            <div class="consultas__bloco">
+              <img src="assets/luciana.svg" alt="Foto da Luiciana Dias" />
+              <div class="consultas__modalidade">
+                <h2 class="consultas__nome">Luciana Dias</h2>
+                <p class="consultas__ambiente">
+                  <img
+                    class="consultas__icone"
+                    src="assets/camera.svg"
+                    alt="Ícone de câmera"
+                  />Consulta remota
+                </p>
+              </div>
+            </div>
+            <a class="consultas__botao-chat" href="#"
+              ><img
+                class="consultas__imagem-chat"
+                src="assets/chat.svg"
+                alt="Ícone de chat"
+            /></a>
+          </div>
+          <div class="consultas__atendimento">
+            <p class="consultas__horario">14:00 - 15:00 (1 hora)</p>
+            <div class="consultas__botoes">
+              <a class="consultas__botao-video" href="#">Ligar por vídeo</a>
+              <a class="consultas__botao-audio" href="#">Ligar por áudio</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="consultas__agendada">
+          <div class="consultas__paciente">
+            <div class="consultas__bloco">
+              <img src="assets/marcos.svg" alt="Foto da Marcos Correia" />
+              <div class="consultas__modalidade">
+                <h2 class="consultas__nome">Marcos Correia</h2>
+                <p class="consultas__ambiente">
+                  <img
+                    class="consultas__icone"
+                    src="assets/camera.svg"
+                    alt="Ícone de câmera"
+                  />Consulta remota
+                </p>
+              </div>
+            </div>
+            <a class="consultas__botao-chat" href="#"
+              ><img
+                class="consultas__imagem-chat"
+                src="assets/chat.svg"
+                alt="Ícone de chat"
+            /></a>
+          </div>
+          <div class="consultas__atendimento">
+            <p class="consultas__horario">17:20 - 18:00 (40 minutos)</p>
+            <div class="consultas__botoes">
+              <a class="consultas__botao-video" href="#">Ligar por vídeo</a>
+              <a class="consultas__botao-audio" href="#">Ligar por áudio</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="consultas__agendada">
+          <div class="consultas__paciente">
+            <div class="consultas__bloco">
+              <img src="assets/larissa.svg" alt="Foto da Larissa Santana" />
+              <div class="consultas__modalidade">
+                <h2 class="consultas__nome">Larissa Santana</h2>
+                <p class="consultas__ambiente">
+                  <img
+                    class="consultas__icone"
+                    src="assets/pin.svg"
+                    alt="Ícone de câmera"
+                  />Consulta no local
+                </p>
+              </div>
+            </div>
+            <a class="consultas__botao-chat" href="#"
+              ><img
+                class="consultas__imagem-chat"
+                src="assets/chat.svg"
+                alt="Ícone de chat"
+            /></a>
+          </div>
+          <div class="consultas__atendimento">
+            <p class="consultas__horario">16:00 - 17:00 (1 hora)</p>
+            <a class="consultas__botao-endereco" href="#">Ver endereço</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="rodape">
+      <a href="#" class="rodape__botao-flutuante"
+        ><img
+          src="assets/botao-flutuante.png"
+          alt="Ícone do botão flutuante"
+          class="rodape__icone-botao-flutuante"
+      /></a>
+
+      <ul class="rodape__menu">
+        <li class="rodape__lista">
+          <a href="#" class="rodape__botoes">
+            <img
+              src="assets/calendario.png"
+              alt="Ícone de calendário"
+              class="rodape__icone"
+            />
+            <p class="rodape__botao-nome rodape__botao-nome--consultas">
+              Consultas
+            </p>
+          </a>
+        </li>
+        <li class="rodape__lista">
+          <a href="#" class="rodape__botoes">
+            <img
+              src="assets/clientes.png"
+              alt="Ícone de clientes"
+              class="rodape__icone rodape__icone--clarear"
+            />
+            <p class="rodape__botao-nome rodape__botao-nome--clarear">
+              Clientes
+            </p>
+          </a>
+        </li>
+        <li class="rodape__lista">
+          <a href="#" class="rodape__botoes">
+            <img
+              src="assets/relatorios.png"
+              alt="Ícone dos relatórios"
+              class="rodape__icone rodape__icone--clarear"
+            />
+            <p class="rodape__botao-nome rodape__botao-nome--clarear">
+              Relatórios
+            </p>
+          </a>
+        </li>
+        <li class="rodape__lista">
+          <a href="#" class="rodape__botoes">
+            <img
+              src="assets/menu.png"
+              alt="Ícone do menu"
+              class="rodape__icone rodape__icone--clarear"
+            />
+            <p class="rodape__botao-nome rodape__botao-nome--clarear">Menu</p>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

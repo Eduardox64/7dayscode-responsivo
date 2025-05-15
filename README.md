@@ -62,14 +62,6 @@ Durante o processo, foram aplicadas boas práticas de responsividade, estilizaç
 - Cards de médicos com informações e interações
 - Layout otimizado para diferentes tamanhos de tela
 
-## 🧰 Tecnologias utilizadas
-
-- HTML5  
-- CSS3  
-- Flexbox  
-- Media Queries  
-- Abordagem Mobile First  
-
 ## 🚀 Como executar o projeto
 
 ### 🔗 Acessar online

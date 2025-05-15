@@ -6,7 +6,7 @@ Este repositório contém o projeto desenvolvido durante a imersão **7 Days of 
 
 <p align="center"><strong>Layout Desktop:</strong></p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Eduardox64/7dayscode-responsivo/main/assets/preview-desktop.png" alt="Demonstração do site - Desktop" width="720">
+  <img src="https://raw.githubusercontent.com/Eduardox64/7dayscode-responsivo/main/assets/preview-desktop.png" alt="Demonstração do site - Desktop" width="610">
 </p>
 
 <br>
@@ -20,7 +20,7 @@ Este repositório contém o projeto desenvolvido durante a imersão **7 Days of 
     </td>
     <td align="center">
       <strong>Mobile</strong><br>
-      <img src="https://raw.githubusercontent.com/Eduardox64/7dayscode-responsivo/main/assets/preview-mobile.gif" alt="Demonstração do site - Mobile" width="240">
+      <img src="https://raw.githubusercontent.com/Eduardox64/7dayscode-responsivo/main/assets/preview-mobile.gif" alt="Demonstração do site - Mobile" width="217">
     </td>
   </tr>
 </table>
